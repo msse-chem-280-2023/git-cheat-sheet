@@ -13,7 +13,7 @@ Logo" height="200"/></div>
 | ------------------------------------------------------ | --------------------------------------------- |
 | `git config --global user.name "Your Name"`  		 | Sets the author name for all future commits.  |
 | `git config --global user.email "hello@something.com"` | Sets the author email for all future commits. |
-| `git config --global core.editor "nano"`     		 | Sets the default Git text editor to nano      |
+| `git config --global core.editor "code --wait"`     	 | Sets the default Git text editor to VSCode.    |
 | `git config --list`                          		 | Lists all current configuration settings.     |
 
 ## Essential Git
@@ -50,6 +50,7 @@ Logo" height="200"/></div>
 | `git clone URL DIR`       | Clones (downloads) a repository from URL into a new directory DIR. |
 | `git remote -v`           | Lists all remote repositories associated with the current repository. |
 | `git remote add NAME URL` | Adds a remote repository NAME pointing to URL.               |
+| `git remote set-url NAME URL` | Changes the URL of remote repository NAME to URL.		|
 | `git remote rm NAME`      | Removes NAME from the list of tracked repositories.          |
 | `git push NAME BRANCH`    | Copies commits of the current branch onto branch BRANCH of NAME. |
 | `git pull NAME BRANCH`    | Merges commits of branch BRANCH of NAME onto the current branch. |
